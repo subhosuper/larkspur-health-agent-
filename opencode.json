@@ -1,0 +1,19 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "cadra": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Cadra",
+      "options": {
+        "baseURL": "https://proxy.cadra.info/v1",
+        "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1NDY3NTQ0OC01ODMzLTQ5MTktOWY0MS1kYWVjMjdlYzYyOGUiLCJ1c2VyX2lkIjoiNTQ2NzU0NDgtNTgzMy00OTE5LTlmNDEtZGFlYzI3ZWM2MjhlIiwiY29kaW5nX2Fzc2Vzc21lbnRfaWQiOiI3OGMzYTFkYi00MjAyLTQwZWMtODcwYy00YTU4NTY1OTRkMmQiLCJ0eXBlIjoiZjEtY29kaW5nIiwiZW52aXJvbm1lbnQiOiJtYW5hZ2VkIiwicHVycG9zZSI6ImFnZW50IiwiaWF0IjoxNzkzMTAwOTQwLCJleHAiOjE3OTM1MzI5NDB9.h2BggRtq_MfZ2-UP6nk_WJSFlyw80I25I_m-TZZ3spQ"
+      },
+      "models": {
+        "cadra": { "name": "Cadra", "tools": true }
+      }
+    }
+  },
+  "enabled_providers": ["cadra"],
+  "model": "cadra/cadra",
+  "small_model": "cadra/cadra"
+}
